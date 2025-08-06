@@ -4,7 +4,7 @@
   "description": "A basic app to deploy",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index2.js"
   },
   "keywords": [
     "node",
@@ -13,7 +13,7 @@
   "author": "Nikhlesh Mourya",
   "license": "ISC",
   "dependencies": {
-    "dotenv": "^17.2.0",
+    "dotenv": "^17.2.1",
     "express": "^5.1.0"
   }
 }

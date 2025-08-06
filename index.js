@@ -3,15 +3,15 @@ const express = require('express')
 const app = express()
 const port = 3000
 
-const githubdata={
-                    "userId": "64b9e12b58d9f4a6e0c77a01",
-    "amount": 1000,
-    "transactionType": "withdraw",
-    "paymentMode": "UPI",
-    "transactionId": "TXN98765UPI",
-    "remarks": "Emergency withdrawal",
-    "date": "2025-07-07T18:05:00Z"
-}
+// const githubdata={
+//                     "userId": "64b9e12b58d9f4a6e0c77a01",
+//     "amount": 1000,
+//     "transactionType": "withdraw",
+//     "paymentMode": "UPI",
+//     "transactionId": "TXN98765UPI",
+//     "remarks": "Emergency withdrawal",
+//     "date": "2025-07-07T18:05:00Z"
+// }
 
 
 app.get('/', (req, res) => {
